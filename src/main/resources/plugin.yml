@@ -3,3 +3,7 @@ version: '${project.version}'
 main: me.pycrs.managedstorage.ManagedStorage
 api-version: 1.19
 authors: [ Pycrs ]
+
+commands:
+  storage:
+    description: Open storage
